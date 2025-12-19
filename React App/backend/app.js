@@ -12,7 +12,7 @@ const app = express();
 // middleware
 app.use(cors(
     {
-        origin:"http://13.61.149.144.7000",
+        origin:"http://13.61.149.144:7000",
         credentials:true
     }
 ));
